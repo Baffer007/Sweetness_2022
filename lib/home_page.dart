@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: Drawer(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue,
       ),
       appBar: AppBar(
         actions: [
