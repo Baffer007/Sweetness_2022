@@ -6,7 +6,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(),
+      drawer: Drawer(
+        backgroundColor: Colors.blue,
+      ),
       appBar: AppBar(
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.search),),
