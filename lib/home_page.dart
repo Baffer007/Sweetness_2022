@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       drawer: Drawer(
         backgroundColor: Colors.blue,
+
       ),
       appBar: AppBar(
         actions: [
